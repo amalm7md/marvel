@@ -1,0 +1,59 @@
+body{
+    margin: 0 ;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(child3.jpg);
+    background-size: 700px;
+}
+
+.forget-pass-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+   padding: 40px ;
+    background: rgba(254, 255, 255, 0.8) ;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5); 
+    border-radius: 10px ;
+    text-align: center;
+
+}
+
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    border: 1px solid #999;
+    outline: none;
+}
+button{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.password-btn{
+    background-color: #338b7e;
+
+}
+a{
+    text-decoration: none;
+}
+
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+.or{
+    background-color: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}

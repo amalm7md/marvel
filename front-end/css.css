@@ -1,0 +1,253 @@
+body{
+    background-color: #fcfcfc;
+}
+
+/*Menu start*/
+
+           @import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato&family=Roboto&family=Sofia&display=swap');
+
+            :root{
+                --primary-color:#338b7e;
+                --light-color:#000000;
+                --border:#2b303218;
+                --text-color:#ffffff;
+                --roboto:"Roboto",sans-serif;
+                --gugi:"Gugi",cursive;
+                --sofia:"Sofia",cursive;}
+            .primary-color{
+                color: var(--primary-color);
+            }
+            .bg-primary-color{
+                background-color: var(--primary-color);
+            }
+            .text-color{
+                color:var(--text-color);
+            }
+            .font-roboto{
+                font-family:var(--roboto);
+            }
+            .lightblue{
+                color: rgb(43, 127, 155);
+            }
+ 
+                /*header*/
+            header{
+                background-color:var(--primary-color);
+                font-family:var(--roboto) ;
+            }
+                header .site-title{
+                    font-family:var(--gugi) ;
+                }
+                    .container .dropdown-toggle,
+                    .container .dropdown-item{
+                        font-size: 0.7em;
+                    }    
+                        .header-links a{
+                            font-size: 0.9em;
+                            text-decoration: none;
+                            color: #ffffff;
+                        }
+                        /*nav menu*/
+                        .navbar-nav{
+                            padding:0.8em 0em;
+                        }
+                        .navbar-nav.nav-link{
+                            font-size:0.9em;
+                            color:var(--light-gray) !important ;
+                        }
+                        .navbar-nav .nav-item .nav-link{
+                            padding:0 1.3em;
+                        }
+                        .navbar-nav .basket-icon{
+                            margin-right: 6.5rem !important;
+                        }
+
+
+/*catagory start
+*/ 
+.catagory{
+    margin-left:100px ;
+    margin-right:100px ;
+    height: auto;
+    direction: ltr;
+    
+}
+.item{
+    padding: 8px 6px 16px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #fdfdfc;
+    border:1px #7b7c7c solid;}
+.imgitem{
+    margin-bottom: 20px;
+    width: 200px;
+    height: 220px;
+    
+}
+.imgitem:hover{
+    box-shadow: 2px 2px 20px #158171;
+}
+
+
+.price{
+    color: #338b7e;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.price:hover{
+    color: #073f3f;
+    font-size: 23px;
+text-shadow: 0px 0px 1px #1698af;
+
+}
+.buy{
+    border-radius: 25px;
+    border:1px #1698af ;
+    color: rw;
+    background-color: #338b7e;
+    margin-bottom: 2px;
+    width: 100px;
+    height: 30px
+}
+.buy:hover{
+ color: black;
+     background-color:#338b7e;
+
+}
+.buy a{
+    color: white;
+}
+.buy a:hover{
+    color: black;
+    
+   
+}
+.details{
+    border-radius: 25px;
+    border:1px #1698af ;
+    color: rw;
+    background-color: #338b7e;
+    margin-bottom: 2px;
+    width: 100px;
+    height: 30px
+}
+.details:hover{
+ color: black;
+     background-color:#338b7e;
+
+}
+.details a{
+    color: white;
+}
+.details a:hover{
+    color: black;
+    
+   
+}
+
+.filter{
+	height: 1px;
+background-color: #1d1e1e;
+    margin-bottom: 10px;
+    margin-top: 1px;
+}
+.div8 a{
+	color: #121213;
+}
+
+/*footer start*/
+.footer{
+    background-color: #201b1b;
+    border-top:2px gray solid;
+    padding-bottom: 8px;
+}
+.part{
+    display: inline-block;
+    margin: 9px;
+    height: 200px
+}
+#footertext{
+    direction: ltr;
+    text-align: center;
+    color: #b5b8b8;
+    font-size: 20px;
+    font-weight: bold;
+    width: 380px;
+    padding-bottom:8px ;
+    border-bottom:1px #0e3a53 solid;
+
+
+}
+#footertext:hover{
+    color:#b5b8b8;
+    font-size: 22px;
+}
+.footer>img{
+    display: block;
+}
+
+
+#BranchesList{
+    text-align: left;
+    color: #b5b8b8;
+    direction: none;
+    
+}
+#contactusList{
+    text-align: left;
+    color: #b5b8b8;
+    direction: none;
+    text-align: left;
+    direction: ltr;
+}
+#BrandList{
+   text-align: left;
+    color: #b5b8b8;
+    direction: none; 
+}
+.unorderlist{
+    list-style-type: none;
+
+}
+.unorderlist1{
+    direction: ltr;
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+}
+
+#copyright{
+    color: white;
+    font-weight: bold;
+    background-color: #080808;
+    display: inline;
+    margin: 20px;
+}
+
+#socialsite{
+  text-align: justify;
+  display: inline-block;
+    
+}
+#socialsite img:hover{
+    width: 50px;
+}
+
+#socialmidea{
+    list-style-type: none;
+    margin-left: 10px;
+    width: 364px;
+    height: 64px;
+    display: inline-block;
+}
+#payway{
+    border-bottom:2px #0e3a53 solid;
+border-bottom-width:medium;
+    
+}
+/*footer end*/

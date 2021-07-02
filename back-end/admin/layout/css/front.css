@@ -1,0 +1,355 @@
+/* Main Rulez */
+
+body{
+	background-color: #F4F4F4;
+	font-size: 16px;
+}
+
+.asterisk{
+	font-size: 30px;
+	position: absolute;
+	right: 30px;
+	top: 8px;
+	color: #D20707;
+}
+
+/* Start Login Form Edits */
+
+.login{
+	width:300px;
+	margin: 100px auto;
+}
+
+.login h4 {
+	color: #888
+} 
+.login input {
+	margin-bottom: 10px;
+}
+
+.login .form-control {
+	background-color: #F4F4F4;
+}
+
+.login .btn {
+	background-color: #338b7e;
+}
+
+/* End Login Form Edits */
+
+
+/* Start Bootstrap Edits */
+
+.navbar{
+	background-color: #338b7e;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+
+.nav > li > a , .navbar-brand{
+	padding: 15px 12px;
+	color: #FFF;
+}
+
+.navbar-brand{
+	font-size: 1em;
+}
+
+
+.navbar-inverse .navbar-nav> .open> a,
+.navbar-inverse .navbar-nav> .open> a:focus,
+.navbar-inverse .navbar-nav> .open> a:hover,
+.dropdown-menu{
+    background-color: #2c786d;
+}
+
+
+.navbar-nav>li> a:focus,
+.navbar-nav>li> a:hover,
+.navbar-brand:hover{
+	 background-color: #2d7867;
+}
+
+.dropdown>a:hover{
+	background-color: #2d7867;
+}
+.dropdown-menu{
+	min-width: 180px;
+	padding: 0;
+	font-size: 1em;
+	border: none;
+	border-radius: 0;
+}
+
+.dropdown-menu > li > a{
+	color: #FFF;
+}
+
+.form-control{
+	position: relative;
+}
+
+.btn{
+	padding: 3px 10px;
+}
+
+.btn-primary{/************************************/
+	color: #fff;
+	background-color: #338b7e;
+	border-color: #338b7e;
+}
+/* End Bootstrap Edits */
+
+
+/* Start Dashboard Page Style */
+
+.home-stats .stat{
+    border: 1px solid #CCC;
+    padding: 20px;
+    font-size: 15px;
+    color: #112d27;
+    border-radius: 8px;
+}
+
+.home-stats .stat a{
+	color: #112d27;
+}
+
+
+.home-stats .stat a:hover{
+	text-decoration: none;
+}
+
+
+.home-stats .stat span{
+    display: block;
+    font-size: 60px;
+}
+
+.home-stats .st-members{
+	background-color: #abe0d4;
+}
+
+
+.home-stats .st-pending{
+	background-color: #bee7de;
+}
+
+
+.home-stats .st-items{
+	background-color: #d0eee7;
+}
+
+
+.home-stats .st-comments{
+	background-color: #e3f5f1;
+}
+
+
+.latest{
+    margin-top: 30px;
+
+}
+
+.latest-users{
+	margin-bottom: 0;
+}
+
+.latest-users li{
+	padding: 10px;
+	overflow: hidden;
+}
+
+.latest-users li:nth-child(odd){
+	background-color: #EEE;
+}
+
+.latest-users .btn-success,
+.latest-users .btn-info{
+	padding: 2px 8px;
+}
+
+.latest-users .btn-info{
+	margin-right: 5px;
+}
+/* End Dashboard Page Style */
+
+
+/* Start Members Page Style */
+
+h1{
+	font-size: 55px;
+	margin: 40px 0;
+	font-weight: bold;
+	color: #666;
+}
+
+.show-pass{
+	position:absolute;
+    top:6px;
+    right: -30px;
+}
+
+.main-table {
+    -webkit-box-shadow : 0 3px 10px #CCC ;
+    -moz-box-shadow : 0 3px 10px #CCC ;
+    box-shadow : 0 3px 10px #CCC ; 
+}
+
+.main-table td{
+    background-color: #FFF;
+    vertical-align :middle !important;
+}
+
+.main-table tr:first-child td{
+    background-color: #338b7e;
+    color:#fff;
+    text-align: center;
+
+}
+
+.main-table .btn{
+    padding: 3px 10px ;
+}
+
+.activate{
+	margin-left: 5px;
+}
+/* End Members Page Style */
+
+
+
+/* start Categories Page Style */
+
+.categories .panel-heading{
+    color: #959595;
+    font-weight: bold;
+}
+
+.categories .panel-heading i{
+    position: relative;
+    top: 1px;
+}
+
+
+.categories .panel-body{
+    padding: 0;
+}
+
+.categories .option a{
+    color: #888;
+    text-decoration: none;
+}
+
+.categories .option .active{
+    color: #F00;
+}
+.categories .option span{
+    color: #888;
+    cursor: pointer;
+  
+  }
+
+.categories hr{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.categories .cat {
+padding: 15px;  
+position: relative;
+overflow: hidden;
+
+}
+.categories .cat:hover{
+   background-color: #EEE;
+    
+}
+ .categories .cat:hover .hidden-buttons {
+    right: 10px;
+    
+}
+.categories .cat .hidden-buttons {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    position: absolute;
+    top:15px;
+    right: -140px;
+}
+.categories .cat .hidden-buttons a {
+    margin-right: 5px;
+
+}
+.categories .cat h3{
+	margin: 0;
+	cursor: pointer;
+	font-weight: bold;
+	color: #6A6A6A;
+
+}
+
+.categories .cat .full-view p{
+	margin: 10px 0;
+	color: #707070;
+}
+.categories .cat:last-of-type ~ hr{
+    display: none;
+
+}
+.categories .cat .visibility{
+  background-color: #c0392b;
+  color: #fff;
+  padding: 4px 6px;
+  margin-right: 6px;
+  border-radius: 6px;
+}
+.categories .cat .commenting{
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 4px 6px;
+    margin-right: 6px;
+    border-radius: 6px;
+  }
+.categories .cat .advertises{
+    background-color:#d35400;
+    color: #fff;
+    padding: 4px 6px;
+    margin-right: 6px;
+    border-radius: 6px;
+  }
+.categories .add-category{
+	margin-bottom: 30px;
+	margin-top: -10px;
+}
+/* End Categories Page Style */
+/*start profile page*/
+.information{
+    margin-top:20px 0 0 ;
+}
+
+/*end profile page*/
+/* Start Login */
+.login-page form {
+    max-width: 300px;
+    margin: auto;
+}
+.login-page form input{
+margin-bottom: 10px;
+}
+.login-page [data-class="login"].selected {
+    color: #337AB7;
+}
+.login-page [data-class="signup"].selected {
+    color: #5cb85c;
+}
+.login-page h1{
+	color: #c0c0c0;
+}
+.login-page h1 span{
+    cursor:pointer;
+}
+.login-page .signup{
+display: none;
+}
+/* End Login  */
